@@ -6,11 +6,11 @@ dotenv.config()
 const bodyParser = require('body-parser')
 const { response } = require('express')
 const app = express()
-const port = 3006
+const port = 443
 const baseUrl = 'https://api.sendinblue.com/v3/smtp/email'
 var corsOptions = {
     origin: 'http://localhost:3000',
-    optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
+    optionsSuccessStatus: 200
 }
 
 var jsonParser = bodyParser.json()
