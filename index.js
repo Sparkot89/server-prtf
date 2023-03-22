@@ -9,7 +9,7 @@ const app = express()
 const port = 3006
 const baseUrl = 'https://api.sendinblue.com/v3/smtp/email'
 var corsOptions = {
-    origin: 'http://localhost:3000',
+    origin: 'https://my-porfolio-bzrd.onrender.com',
     optionsSuccessStatus: 200
 }
 
